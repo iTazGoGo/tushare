@@ -24,7 +24,7 @@ except ImportError:
     from urllib2 import urlopen, Request
 
 
-def profit_data(year=2015, top=25, 
+def profit_data(year, top=25, 
               retry_count=3, pause=0.001):
     """
     获取分配预案数据
